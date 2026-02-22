@@ -232,3 +232,4 @@ Below is sample output from successfully executing the notebook:
 - [LangChain Groq Integration](https://python.langchain.com/docs/integrations/chat/groq/)
 - [LangChain Expression Language (LCEL)](https://python.langchain.com/docs/concepts/lcel/)
 - [Groq Console](https://console.groq.com)
+- IA
