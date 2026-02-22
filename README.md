@@ -1,4 +1,4 @@
-# LangChain + Groq Tutorial (Step by Step)
+# LangChain Tutorial (Step by Step) using Grok
 
 **Student:** Daniel Rodriguez
 
