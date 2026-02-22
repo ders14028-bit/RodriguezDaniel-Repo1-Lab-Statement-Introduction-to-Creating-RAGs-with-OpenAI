@@ -31,6 +31,7 @@ Final text output / streamed tokens
 | `SystemMessage` / `HumanMessage` | Sends structured role-based chat input |
 | `ChatPromptTemplate` | Creates parameterized prompts (`{topic}`, `{question}`) |
 | `StrOutputParser` | Converts model responses into plain strings |
+| `LCEL (|)` | Composes prompt, model, and parser into a single chain |
 
 ---
 
@@ -189,48 +190,28 @@ Below is sample output from successfully executing the notebook:
 
 ### Step 1: Model Initialization
 
-```
-[✓] Model initialized: llama-3.1-8b-instant
-```
+![alt text](image.png)
+
 
 ### Step 2: Direct Invocation
 
-```
-I'd be happy to help! However, I'm a text-based AI and don't have real-time access to current weather conditions. 
-For the most up-to-date weather in San Francisco, I recommend checking a weather website or app.
-```
+![alt text](image-1.png)
 
 ### Step 3: Output Parser
 
-```
-(Same output as Step 2, now parsed as a plain string)
-```
+![alt text](image-2.png)
 
 ### Step 4: Prompt Template Messages
 
-```
-[SystemMessage] You are a helpful assistant that answers questions about weather.
-[HumanMessage] How is the temperature measured?
-```
+![alt text](image-3.png)
 
 ### Step 5: Full Chain Examples
 
-```
-Q: What causes rain?
-A: Rain is caused when water vapor in the atmosphere condenses...
-
-Q: What is the capital of France?
-A: The capital of France is Paris.
-```
+![alt text](image-4.png)
 
 ### Step 6: Streaming Output
 
-```
-Streaming response:
-The sky appears blue because of a phenomenon called Rayleigh scattering...
-```
-
-> **Note**: Actual responses may vary slightly due to model temperature and version updates.
+![alt text](image-5.png)
 
 ---
 
@@ -240,6 +221,7 @@ The sky appears blue because of a phenomenon called Rayleigh scattering...
 .
 ├── Notebook.ipynb
 └── README.md
+└── images
 ```
 
 ---
