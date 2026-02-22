@@ -31,7 +31,6 @@ Final text output / streamed tokens
 | `SystemMessage` / `HumanMessage` | Sends structured role-based chat input |
 | `ChatPromptTemplate` | Creates parameterized prompts (`{topic}`, `{question}`) |
 | `StrOutputParser` | Converts model responses into plain strings |
-| `LCEL (|)` | Composes prompt, model, and parser into a single chain |
 
 ---
 
